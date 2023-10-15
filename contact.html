@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="alternate stylesheet" type="text/css" href="css/large.css" title="large">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="scripts/styleswitcher.js"></script>
+        <title>Contact - HollowKnight</title>
+    </head>
+
+<body>
+    <nav class="screenreader">
+        <a href="#form">Skip to Main content</a>
+    </nav>
+    <nav id="forvisualimpairment"><a id="largetext" href="#" onclick="setActiveStyleSheet('large'); return false;">Large text</a>
+        <a id="normaltext" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normal text</a>
+    </nav>
+    <header>
+        <a href=""><img src="images/logo.png" alt="logo" class="logo"></a>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="bosses.html">Bosses</a></li>
+                <li><a href="contact.html" style="color: #9393ff;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="mailto:20shoxjaxon02@gmail.com" method="post" enctype="text/plain" id="form">
+            <fieldset class="email">
+                <label>Email: </label>
+                <input type="email" name="email" id="email" size="25" maxlength="30">
+                <input type="checkbox" id="newsletter" name="newsletter" value="nl_yes">
+                <label for="newsletter">I want to receive newsletters</label>
+            </fieldset>
+
+            <fieldset class="rate">
+                <label>Rate our website: </label>
+                <div class="rating">
+                    <input type="radio" name="website" id="star5"><label for="star5" title="Excellent"></label>
+                    <input type="radio" name="website" id="star4"><label for="star4" title="Very Good"></label>
+                    <input type="radio" name="website" id="star3"><label for="star3" title="Good"></label>
+                    <input type="radio" name="website" id="star2"><label for="star2" title="Poor"></label>
+                    <input type="radio" name="website" id="star1"><label for="star1" title="Awful"></label>
+                </div>
+            </fieldset>
+
+            <fieldset class="rate_content">
+                <label>Rate our content: </label>
+                <div class="rating">
+                    <input type="radio" name="content" id="starC5"><label for="starC5" title="Excellent"></label>
+                    <input type="radio" name="content" id="starC4"><label for="starC4" title="Very Good"></label>
+                    <input type="radio" name="content" id="starC3"><label for="starC3" title="Good"></label>
+                    <input type="radio" name="content" id="starC2"><label for="starC2" title="Poor"></label>
+                    <input type="radio" name="content" id="starC1"><label for="starC1" title="Awful"></label>
+                </div>
+            </fieldset>
+
+            <fieldset class="comment">
+                <label for="comments">Comment: </label><br>
+                <div class="comment">
+                    <textarea id="comments" name="comments" rows="5" cols="80" placeholder="Type here..."></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset class="buttons">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="source">
+            <h3>Sources</h3>
+            <ul>
+                <li><a href="https://www.hollowknight.com/" target="_blank">hollowknight.com</a></li>
+                <li><a href="https://hollowknight.fandom.com/wiki/Hollow_Knight_(game)"
+                        target="_blank">hollowknight.fandom.com</a></li>
+                <li><a href="https://teamcherry.com.au/" target="_blank">teamcherry.com.au</a></li>
+            </ul>
+            <address>
+                Email:<a href="mailto:20shoxjaxon02@gmail.com">20shoxjaxon02@gmail.com</a>.<br>
+                Address: 17-45, Tashkent, Uzbekistan
+            </address>
+        </div>
+        <div class="links">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="bosses.html">Bosses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <div class="icons">
+                <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">
+                    <i class="fab fa-steam-symbol"></i>
+                </a>
+                <a href="https://www.facebook.com/teamcherrygames/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/teamcherrygames?lang=en" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCZS2K8ZsUmujTuj3cNMyBSA" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>

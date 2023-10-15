@@ -1,0 +1,37 @@
+/* large text for people with visual impairement */
+
+@import url('style.css');
+body {
+    margin: 0 5%;
+    font-size: 2em;
+}
+
+a#largetext {
+    display: none;
+}
+
+a#normaltext {
+    font-size: 1em;
+    white-space: nowrap;
+    display: block;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+}
+ 
+article, table {
+    opacity: 1;
+    background-color: #383838;
+}
+
+@media screen and (max-width:992px) {
+    a#normaltext {
+        font-size: 0.6em;
+    }
+}
